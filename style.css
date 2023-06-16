@@ -445,8 +445,8 @@ justify-content: space-around;
 }
 .rectangle{
     position: absolute;
-    width: 521px;
-    height: 900px;
+    width: 571px;
+    height: 1200px;
     left: 986px;
     top: 4px;
     
@@ -456,8 +456,8 @@ justify-content: space-around;
     position: absolute;
     width: 247px;
     height: 33px;
-    left: 985px;
-    top: 204px;
+    left: 37px;
+    top: 176px;
     
     font-family: 'Poppins Regular';
     font-style: normal;
@@ -473,8 +473,8 @@ justify-content: space-around;
     position: absolute;
     width: 488px;
     height: 71px;
-    left: 848px;
-    top: 416px;
+    left: 39px;
+    top: 242px;
     
     background: rgba(255, 255, 255, 0.83);
     border: 1px solid rgba(251, 221, 187, 0.51);
@@ -484,8 +484,8 @@ justify-content: space-around;
     position: absolute;
     width: 134px;
     height: 33px;
-    left: 873px;
-    top: 435px;
+    left: 49px;
+    top: 262px;
     
     font-family: 'Poppins Regular';
     font-style: normal;
@@ -502,8 +502,8 @@ justify-content: space-around;
     position: absolute;
     width: 488px;
     height: 71px;
-    left: 857px;
-    top: 515px;
+    left: 39px;
+    top: 360px;
     
     background: rgba(255, 255, 255, 0.83);
     border: 1px solid rgba(251, 221, 187, 0.51);
@@ -513,8 +513,8 @@ justify-content: space-around;
     position: absolute;
     width: 103px;
     height: 33px;
-    left: 893px;
-    top: 534px;
+    left: 59px;
+    top: 380px;
     
     font-family: 'Poppins Regular';
     font-style: normal;
@@ -527,24 +527,6 @@ justify-content: space-around;
     
     color: rgba(0, 48, 46, 0.53);
 }
-.show{
-    position: absolute;
-    width: 37px;
-    height: 33px;
-    left: 1266px;
-    top: 534px;
-    
-    font-family: 'Poppins Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 33px;
-    /* identical to box height, or 236% */
-    
-    text-align: center;
-    
-    color: #00302E;
-}
 button{
     display: flex;
     flex-direction: row;
@@ -556,15 +538,15 @@ button{
     position: absolute;
     width: 488px;
     height: 60px;
-    left: 848px;
-    top: 636px;
+    left: 39px;
+    top: 775px;
     
     background: #00302E;
     border-radius: 5px;
     border: #00302E;
 }
 .login{
-    width: 54px;
+    width: 64px;
     height: 21px;
     
     font-family: 'Poppins Regular';
@@ -583,49 +565,14 @@ button{
     order: 0;
     flex-grow: 0;
 }
-.create{
-    position: absolute;
-    width: 133px;
-    height: 33px;
-    left: 846px;
-    top: 704px;
-    
-    font-family: 'Poppins Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 33px;
-    /* identical to box height, or 236% */
-    
-    text-align: center;
-    
-    color: rgba(0, 48, 46, 0.91);
-}
-.forgot{
-    position: absolute;
-    width: 125px;
-    height: 33px;
-    left: 1208px;
-    top: 704px;
-    
-    font-family: 'Poppins Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 33px;
-    /* identical to box height, or 236% */
-    
-    text-align: center;
-    
-    color: rgba(0, 48, 46, 0.91);
-}
+
 
 .name_box{
     position: absolute;
     width: 488px;
     height: 71px;
-    left: 848px;
-    top: 298px;
+    left: 39px;
+    top: 596px;
     
     background: rgba(255, 255, 255, 0.83);
     border: 1px solid rgba(251, 221, 187, 0.51);
@@ -635,8 +582,8 @@ button{
     position: absolute;
     width: 110px;
     height: 33px;
-    left: 873px;
-    top: 317px;
+    left: 59px;
+    top: 616px;
     
     font-family: 'Poppins Regular';
     font-style: normal;
@@ -666,4 +613,33 @@ button{
     text-align: right;
     
     color: rgba(0, 48, 46, 0.91);
+}
+.cpin_box{
+    position: absolute;
+    width: 488px;
+    height: 71px;
+    left: 39px;
+    top: 478px;
+    
+    background: rgba(255, 255, 255, 0.83);
+    border: 1px solid rgba(251, 221, 187, 0.51);
+    border-radius: 5px;
+}
+.cpin{
+    position: absolute;
+    width: 103px;
+    height: 33px;
+    left: 59px;
+    top: 498px;
+    
+    font-family: 'Poppins Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    /* identical to box height, or 236% */
+    
+    text-align: center;
+    
+    color: rgba(0, 48, 46, 0.53);
 }
